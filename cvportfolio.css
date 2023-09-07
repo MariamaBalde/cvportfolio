@@ -1,0 +1,724 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.item1 .contitm1 {
+    text-align: center;
+    background-image: url(B1.jpg);
+    background-size: cover;
+    height: 650px;
+    opacity: 0.9;
+}
+
+.item1 .contitm1+div {
+    padding-top: 200px;
+}
+
+
+.item1 .contitm1 #nav {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    width: 1130px;
+    opacity: none;
+
+}
+
+.item1 .contitm1 #lient a {
+    text-decoration: none;
+    color: white;
+}
+
+.item1 .contitm1 #lient {
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 1030px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.item1 .contitm2 {
+    text-align: center;
+    position: relative;
+    bottom: 470px;
+    left: 325px;
+    width: 650px;
+    height: 300px;
+    margin-top: 180px;
+    background-color: white;
+}
+
+
+
+
+.contitm2 .div1 img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 70%;
+}
+
+.contitm2 div {
+    position: relative;
+    bottom: 300px;
+}
+
+.contitm2 .div2 p {
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.contitm2 .div3 #p3 {
+    padding-bottom: 10px;
+}
+
+.contitm2 .div4 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contitm2 .div4 p {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(91, 80, 91);
+}
+
+.contitm2 .div4 p:hover {
+    background-color: orange;
+}
+
+.contitm2 .div4 i {
+    position: relative;
+    top: 8px;
+}
+
+.item1 .contitm3 {
+    position: relative;
+    bottom: 350px;
+
+}
+
+
+
+.contitm3 .C1 {
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 53px;
+    height: 5px;
+}
+
+.contitm3 .C2 {
+    display: flex;
+    gap: 300px;
+}
+
+
+.contitm3 .C2 .C23 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+
+}
+
+.contitm3 .C2 .C23 a {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+}
+
+.contitm3 .conteneur {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 330px 300px 400px;
+}
+
+.contitm3 .C1,
+.C2 {
+    margin-left: 100px;
+}
+
+.contitm3 .C2 .C22 {
+    position: relative;
+    bottom: 10px;
+}
+
+.contitm3 .C2 .C22 p {
+    position: relative;
+    bottom: 15px;
+    color: gray;
+    font-family: Arial Bold;
+    font-weight: 300px;
+}
+
+
+.conteneur .une {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.conteneur .une img {
+    width: 510px;
+    height: 240px;
+}
+
+.conteneur .deux {
+    grid-column: 3/5;
+    grid-row: 1/3;
+
+}
+
+.conteneur .deux img {
+    width: 500px;
+    height: 570px;
+}
+
+.conteneur .trois {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.conteneur .trois img {
+    height: 243px;
+    width: 300px;
+}
+
+.conteneur .quatre {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.conteneur .cinq {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.conteneur .cinq img {
+    width: 260px;
+    height: 360px;
+}
+
+
+
+
+.conteneur.six {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.conteneur .six img {
+    width: 300px;
+    height: 320px;
+}
+
+
+
+.conteneur .sept {
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+
+
+.conteneur .sept img {
+    width: 500px;
+    height: 590px;
+}
+
+
+
+.conteneur .huit {
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+.conteneur .huit img {
+    width: 500px;
+    height: 289px;
+}
+
+.conteneur .neuf {
+    grid-column: 5/6;
+    grid-row: 3/5;
+}
+
+.conteneur .neuf img {
+    width: 300px;
+    height: 590px;
+}
+
+
+.conteneur .dix {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.conteneur .dix img {
+    width: 200px;
+    height: 289px;
+}
+
+.conteneur .onze {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.conteneur .onze img {
+    width: 242px;
+    height: 289px;
+}
+
+
+.item1 .contitm4 {
+    position: relative;
+    bottom: 360px;
+
+}
+
+.contitm4 .Comp1 {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 43px;
+    height:8px;
+    background-color: orange;
+}
+
+.contitm4 .Comp2 {
+    display: flex;
+    gap: 300px;
+}
+
+.contitm4 {
+    margin-left: 100px;
+}
+
+.contitm4 .Comp2 .Comp23 div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+
+}
+
+.boxe {
+    position: relative;
+}
+
+svg {
+    height: 180px;
+    width: 180px;
+}
+
+svg circle {
+    fill: none;
+    stroke: rgb(246, 181, 59);
+    stroke-width: 5px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;
+  
+} 
+
+/* le premier cercle ne sera pas en animation et sera gris */
+svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #e0e0e0;
+}
+
+/* Le deuxiéme aura uniquement l'animation avec la propriété animation */
+svg circle:nth-child(2) {
+    animation: circle 2s forwards;
+}
+
+
+@keyframes circle {
+    to {
+        stroke-dashoffset: 15;
+    }
+} 
+
+.pourcent1 svg {
+    height: 180px;
+    width: 180px;
+}
+
+.pourcent1 svg circle {
+    fill: none;
+    stroke: rgb(246, 181, 59);
+    stroke-width: 5px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;
+  
+} 
+
+.pourcent1 svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #e0e0e0;
+}
+
+.pourcent1 svg circle:nth-child(2) {
+    animation: circle1 2s forwards;
+}
+
+
+@keyframes circle1 {
+    to {
+        stroke-dashoffset: 111;
+    }
+}
+
+.pourcent2 svg {
+    height: 180px;
+    width: 180px;
+}
+
+.pourcent2 svg circle {
+    fill: none;
+    stroke: rgb(246, 181, 59);
+    stroke-width: 5px;
+    transform: translate(5px, 5px);
+    stroke-linecap: round;
+    stroke-dasharray: 506;
+    stroke-dashoffset: 506;
+  
+} 
+
+.pourcent2 svg circle:nth-child(1) {
+    stroke-dashoffset: 0;
+    stroke: #e0e0e0;
+}
+
+.pourcent2 svg circle:nth-child(2) {
+    animation: circle2 2s forwards;
+}
+
+
+@keyframes circle2 {
+    to {
+        stroke-dashoffset: 167;
+    }
+} 
+
+
+.boxe h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.boxe p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 16px;
+}
+
+.boxe #p3,
+#p4 {
+    position: absolute;
+    left: 40%;
+}
+
+.item1 .contitm5 {
+    background-color: #280137;
+    position: relative;
+    bottom: 300px;
+    color: white;
+    display: flex;
+    gap: 100px;
+}
+
+.contitm5 div {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.contitm5 .Comp1 .Comp1div1 {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 17%;
+    height: 1%;
+    background-color: orange;
+}
+
+.contitm5 .Comp1 .Comp1div2 {
+    position: relative;
+    bottom: 20px;
+}
+
+.contitm5 .Comp1 .Comp1div2 h5 {
+    position: relative;
+    bottom: 20px;
+    color: grey;
+    font-size: 14px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.contitm5 .Comp2 .Comp2div1 h4,
+h5 {
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.contitm5 .Comp2 .Comp2div1 h4,
+.Comp2div4 h4 {
+    color: orange;
+}
+
+.contitm5 .Comp2div2,
+.Comp2div3,
+.Comp2div4 {
+    position: relative;
+    bottom: 20px;
+}
+
+.contitm5 .Comp2div3,
+.Comp2div6 {
+    position: relative;
+    right: 20px;
+}
+
+.contitm5 .Comp2div4 h4,
+h5 {
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.contitm5 .Comp2 h3 {
+color: white;
+}
+
+.contitm5 .Comp2div3 li,
+.Comp2div6 li {
+    list-style-type: circle;
+}
+
+.Comp2div5,
+.Comp2div6 {
+    position: relative;
+    bottom: 60px;
+}
+
+.Comp2div6 {
+    position: relative;
+    bottom: 70px;
+}
+
+.contitm6 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: relative;
+    bottom: 250px;
+    color: grey;
+    margin-bottom: -190px;
+}
+
+.contitm6 div {
+    margin-left: 57px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.contitm6 .part1 .part1div1 {
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 20%;
+    height: 1%;
+    background-color: orange;
+}
+
+.contitm6 h2,
+h3 {
+    color: black;
+    text-transform: capitalize;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+.contitm6 h4 {
+    color: orange;
+}
+
+.contitm6 .part1div2 h5{
+    position: relative;
+    bottom: 17px;
+    font-size: 13px;
+}
+
+.contitm6 .part2 h4{
+   position: relative;
+   bottom: 20px;
+}
+
+.contitm6 .part2div1 #p1{
+    position: relative;
+    bottom: 30px;
+    font-size: 17px;
+ }
+
+ .contitm6 .part2div1 #p2{
+    position: relative;
+    bottom: 25px;
+ }
+
+ .contitm6 .part2{
+    border-left: 2px solid gray;
+
+ }
+
+ .contitm6 .part2 .round{
+    background-image: url(ORANGE.png);
+    background-size: cover;
+   border: 1px solid orange;
+   border-radius: 8px;
+   width: 13px;
+   height: 13px; 
+   position:relative ;
+   bottom: 10px;
+   left: 7px;
+ } 
+
+ .contitm6 .part2 .round1{
+    background-color: orange;
+    opacity: 0.5;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    position:relative ;
+    bottom: 45px;
+    right: 74px;
+  }
+
+  .contitm6 .part2 .round2{
+    background-image: url(ORANGE.png);
+    background-size: cover;
+   border: 1px solid orange;
+   border-radius: 8px;
+   width: 13px;
+   height: 13px; 
+   position:relative ;
+   bottom: 10px;
+   left: 7px;
+  }
+
+  .contitm6 .part2 .round3{
+    background-color: orange;
+    opacity: 0.5;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    position:relative ;
+    bottom: 45px;
+    right: 74px;
+  }
+
+  .contitm6 .part2 .round4{
+    background-image: url(ORANGE.png);
+    background-size: cover;
+   border: 1px solid orange;
+   border-radius: 8px;
+   width: 13px;
+   height: 13px; 
+   position:relative ;
+   bottom: 10px;
+   left: 7px;
+ }
+
+ .contitm6 .part2 .round5{
+    background-color: orange;
+    opacity: 0.5;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    position:relative ;
+    bottom: 45px;
+    right: 74px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.contitm7 div {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+
+/* .contitm7 {
+    position: relative;
+    bottom: 100px;
+  
+} */
+
+.contitm7 .contitm7div1{
+    background-image: url(jaune.jpg.crdownload);
+    background-size: cover;
+    color: white;
+    /* padding: 70px; */
+   
+} 
+
+.contitm7 .contitm7div1 div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 50px;
+} 
+
+.contitm7 .contitm7div1 h1{
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+.contitm7 .contitm7div1 p{
+    position: relative;
+    top: 25%;
+  } 
+
+.contitm7 .contitm7div2{
+   background-color: #280137;
+   border: 1px solid  black;
+   border-bottom-left-radius: 5px;
+   color: grey;
+   padding: 10px;
+}
